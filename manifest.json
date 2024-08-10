@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Prettier Google Docs",
+    "version": "1.0",
+    "description": "Try different color schemes on Google Docs",
+    "icons": {
+    "128": "assets/icon128.png"
+    },
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://docs.google.com/document/u/*"],
+        "js": ["content.js"],
+        "css": ["styles-home.css"]
+      },
+      {
+        "matches": ["https://docs.google.com/document/d/*"],
+        "js": ["content.js"],
+        "css": ["styles-editor.css"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }

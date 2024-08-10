@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    width: 250px;
+}
+
+.select-menu {
+    position: relative;
+    width: 100%;
+}
+
+.select-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.sBtn-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.options {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.select-menu.active .options {
+    opacity: 1;
+    visibility: visible;
+}
+
+.option {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #f1f1f1;
+}
+
+.option i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.option-text {
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

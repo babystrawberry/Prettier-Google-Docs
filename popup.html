@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Color Scheme</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding: 20px;
+      width: 300px;
+      background-color: #f8f9fa;
+    }
+    .color-preview {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .dropdown-item {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h4>Select Color Scheme</h4>
+    <div class="form-group">
+      <select id="colorScheme" class="form-control">
+        <option value="light" class="dropdown-item"><span class="color-preview" style="background-color: #f8f9fa;"></span>Light (default)</option>
+        <option value="dark" class="dropdown-item"><span class="color-preview" style="background-color: #343a40;"></span>Dark</option>
+        <option value="blue" class="dropdown-item"><span class="color-preview" style="background-color: #007bff;"></span>Blue</option>
+        <option value="pink" class="dropdown-item"><span class="color-preview" style="background-color: #d459c3;"></span>Pink</option>
+        <option value="brown" class="dropdown-item"><span class="color-preview" style="background-color: #6f4e37;"></span>Brown</option>
+        <option value="purple" class="dropdown-item"><span class="color-preview" style="background-color: #6f42c1;"></span>Purple</option>
+      </select>
+    </div>
+    <button id="apply" class="btn btn-primary btn-block">Apply</button>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
+
+
+

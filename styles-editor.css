@@ -1,0 +1,170 @@
+
+  .pink-theme {
+    --toolbar-bg: #FFEEEE;
+    --body-bg: #FFE2E2;
+    --ruler-bg: #F8E8EE;
+    #docs-chrome, #docs-chrome * {
+      background-color: var(--toolbar-bg) !important;
+    }
+    
+    body, .kix-appview-editor {
+      background-color: var(--body-bg) !important;
+    }
+    
+    div[class^="navigation-widget"] {
+      background-color: var(--body-bg) !important;
+    }
+    
+    div[class^="docs-ruler-background"] {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-horizontal-ruler {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-horizontal-ruler-container {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-vertical-ruler {
+      background-color: var(--ruler-bg) !important;
+    }
+  }
+  
+  /* Dark theme variables */
+  .dark-theme {
+    --toolbar-bg: #d9d9d6;
+    --body-bg: #3b3b3b;
+    --ruler-bg: #d9d9d6;
+    #docs-chrome, #docs-chrome * {
+      background-color: var(--toolbar-bg) !important;
+    }
+    
+    body, .kix-appview-editor {
+      background-color: var(--body-bg) !important;
+    }
+    
+    div[class^="navigation-widget"] {
+      background-color: var(--body-bg) !important;
+    }
+    
+    div[class^="docs-ruler-background"] {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-horizontal-ruler {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-horizontal-ruler-container {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-vertical-ruler {
+      background-color: var(--ruler-bg) !important;
+    }
+  }
+
+  .blue-theme {
+    --toolbar-bg: #E3F4F4;
+    --body-bg: #D2E9E9;
+    --ruler-bg: #F8F6F4;
+    #docs-chrome, #docs-chrome * {
+      background-color: var(--toolbar-bg) !important;
+    }
+    
+    body, .kix-appview-editor {
+      background-color: var(--body-bg) !important;
+    }
+    
+    div[class^="navigation-widget"] {
+      background-color: var(--body-bg) !important;
+    }
+    
+    div[class^="docs-ruler-background"] {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-horizontal-ruler {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-horizontal-ruler-container {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-vertical-ruler {
+      background-color: var(--ruler-bg) !important;
+    }
+  }
+
+  .brown-theme {
+    --toolbar-bg: #F1E5D1;
+    --body-bg: #DFD3C3;
+    --ruler-bg: #F8EDE3;
+    #docs-chrome, #docs-chrome * {
+      background-color: var(--toolbar-bg) !important;
+    }
+    
+    body, .kix-appview-editor {
+      background-color: var(--body-bg) !important;
+    }
+    
+    div[class^="navigation-widget"] {
+      background-color: var(--body-bg) !important;
+    }
+    
+    div[class^="docs-ruler-background"] {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-horizontal-ruler {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-horizontal-ruler-container {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-vertical-ruler {
+      background-color: var(--ruler-bg) !important;
+    }
+  }
+
+  .purple-theme {
+    --toolbar-bg: #F1EAFF;
+    --body-bg: #e7d0f59e;
+    --ruler-bg: #F8F6F4;
+    #docs-chrome, #docs-chrome * {
+      background-color: var(--toolbar-bg) !important;
+    }
+    
+    body, .kix-appview-editor {
+      background-color: var(--body-bg) !important;
+    }
+    
+    div[class^="navigation-widget"] {
+      background-color: var(--body-bg) !important;
+    }
+    
+    div[class^="docs-ruler-background"] {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-horizontal-ruler {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-horizontal-ruler-container {
+      background-color: var(--ruler-bg) !important;
+    }
+    
+    #kix-vertical-ruler {
+      background-color: var(--ruler-bg) !important;
+    }
+  }
+  
+
+  
+  
